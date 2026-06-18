@@ -1,0 +1,16 @@
+class Solution {
+    public int[] solution(int money) {
+        int icecoffee = 5500;
+        
+        // 최대 잔 수
+        int max = money / 5500;
+        // 남은 잔돈
+        int remain = money % 5500;
+        // 최대 잔 수와 잔돈 결과 
+        int[] result = {max, remain};
+        
+        System.out.println("구매가능 개수: " + max + "잔돈: " + remain);
+        return result; // 결과값 반환
+    }
+    
+}
