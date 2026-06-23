@@ -1,9 +1,7 @@
-#include <stdio.h>
-#include <stdbool.h>
-#include <stdlib.h>
-
-int solution(int age) {
-    int answer = 0;
-    answer = 2022 - age + 1;
-    return answer;
+class Solution {
+    public int solution(int age) {
+        int answer = 0; // 0으로 초기화
+        answer = 2022 - age + 1; // 2022에서 현재 나이를 빼고 +1 하여 태어난 연도 계산
+        return answer; // 계산 연도 반환
+    }
 }
